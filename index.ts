@@ -1,5 +1,6 @@
-import errors from './src/errors';
+import ValidationError from './src/errors/ValidationError';
 
 
-console.log(errors);
-export default errors;
+export {
+  ValidationError
+};

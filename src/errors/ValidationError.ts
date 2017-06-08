@@ -9,6 +9,9 @@ class ValidationError extends Error {
   public errorAttribute: string;
   public errors: Error[];
 
+  public statusCode = 422;
+  public errorType = this.name;
+
   constructor(params: ValidationErrorParams) {
     super();
 
