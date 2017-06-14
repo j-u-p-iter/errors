@@ -1,6 +1,6 @@
 type ValidationErrorParams = {
   message: string;
-  errors: Error[];
+  errors?: Error[];
   errorAttribute: string;
 }
 
