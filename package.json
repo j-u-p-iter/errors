@@ -1,13 +1,17 @@
 {
   "name": "@j.u.p.iter/errors",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "tsc"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j-u-p-iter/errors"
+  },
+  "author": "j.u.p.iter",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^2.3.4"
